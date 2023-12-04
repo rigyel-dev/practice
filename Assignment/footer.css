@@ -1,0 +1,25 @@
+.footer {
+    background-color: rgb(113, 181, 30);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container4 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content4 {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .container4 {
+        flex-direction: column;
+    }
+}
